@@ -1,4 +1,5 @@
 SI = require 'seamless-immutable'
+isEqual = require 'is-equal'
 
 module.exports =
   new: SI
@@ -21,7 +22,7 @@ module.exports =
 
     removeItem: (siArray, rItem) ->
       siArray.flatMap (item, index) ->
-        return item unless item is rItem
+        return item unless isEqual item, SI rItem
         []
 
     eachAsMutable: (siArray, itemHandler) ->
