@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "coffee-script": "^1.10.0",
+    "is-equal": "^1.5.1",
     "seamless-immutable": "^5.2.0"
   }
 }
