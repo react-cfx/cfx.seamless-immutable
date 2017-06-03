@@ -15,4 +15,4 @@ clean:
 
 build: clean
 	mkdir -p build
-	coffee -p src/index.coffee | babel --presets env > build/index.js
+	coffee -pb src/index.coffee | babel --presets env > build/index.js
