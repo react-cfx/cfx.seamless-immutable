@@ -15,3 +15,7 @@ dist
 dest
 .tmp
 tmp
+
+package-lock.json
+yarn.lock
+yarn*.log
