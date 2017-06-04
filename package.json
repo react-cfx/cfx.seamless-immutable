@@ -22,12 +22,13 @@
   },
   "homepage": "https://github.com/react-cfx/cfx.seamless-immutable#readme",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.1",
-    "ddeyes": "git+https://github.com/Mooxe000/ddeyes.git",
+    "coffeescript": "next",
+    "ddeyes": "0.0.4",
     "shelljs": "^0.7.7"
   },
   "dependencies": {
-    "coffeescript": "next",
     "is-equal": "^1.5.5",
     "seamless-immutable": "^7.1.2"
   }

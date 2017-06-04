@@ -1,7 +1,8 @@
-SI = require 'seamless-immutable'
-isEqual = require 'is-equal'
+import SI from  'seamless-immutable'
+import isEqual from 'is-equal'
 
-module.exports =
+export default
+
   new: SI
 
   Array:
