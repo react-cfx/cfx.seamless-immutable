@@ -1,1 +1,2 @@
-module.exports = require('./dest/index.js').default;
+import SI from 'src';
+export default SI;
